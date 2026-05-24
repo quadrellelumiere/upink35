@@ -1,3 +1,5 @@
+
+
 /* Place your CSS styles in this file */
 body{background-color: rgba(14, 36, 101, 0.816);}
 h1 {
@@ -12,14 +14,15 @@ h1 {
 ul {list-style-type: none; 
 font-family: 'Times New Roman', Times, serif;
 color: rgb(255, 151, 217);
-text-align:left;
-background-color: rgba(206, 157, 255, 0.446);
-font-weight: bold;}
+text-align:center;
+font-weight: bold;
+}
 
 
 li {display: inline-block;
 padding: 12px;
-margin: 10px;}
+margin: 10px;
+cursor: pointer;}
 
 p { color: rgb(255, 198, 242);
 text-align: left;
@@ -28,5 +31,15 @@ font-family: 'Times New Roman', Times, serif;
 line-height: 1.8 ;
 margin-bottom: 30px;
 padding-left: 20px;
+margin: 2px; }
 
+.card {
+background-color: rgba(206, 157, 255, 0.5);
+padding:35px;
+border-radius:20px;
+}
+a {text-decoration: none;
+color: rgb(255, 151, 217);
+transition: 0,3s;}
 
+a :hover { color: white;}
